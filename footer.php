@@ -6,7 +6,7 @@
 		            <div class="widget_text col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		            	<h4 class="font-raleway">Wie zijn wij?</h4>
 		            	<div class="textwidget custom-html-widget">
-						<p>Zwitserland is een zeer mooi land xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</p>
+						<p>Zwitserland is een zeer mooi land</p>
 						<a class="btn outline arrow" href="#">Meer Info</a>
 						</div>
 					</div>
