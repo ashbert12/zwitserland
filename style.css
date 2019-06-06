@@ -1,0 +1,468 @@
+body
+{
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.btn
+{
+    margin: 10px;
+    border-radius: 4px !important;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 10px 40px;
+}
+
+.font-raleway
+{
+    font-family: Raleway !important;
+}
+
+.banner img
+{
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    object-fit: cover;
+    position: relative
+}
+
+.banner-image
+{
+    position: relative;
+}
+
+.btn-white
+{
+    background-color: white;
+}
+
+.btn-primary
+{
+    background-color: darkgreen !important;
+}
+
+.row
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.banner-content
+{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    top: 50%;
+    bottom: 0;
+    line-height: 75px;
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+.container-fluid
+{
+    padding: 0 !important;
+}
+
+.btn-blue
+{
+    background-color: darkblue;
+}
+
+.btn-white
+{
+    background-color: whitesmoke;
+}
+
+.btn-group
+{
+    height: 60px;
+    margin: 0 10px;
+}
+
+.bg-darkbrown {
+    background: #1e1e1e;
+    color: white;
+    padding-bottom: 30px !important;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.brown {
+    color: #c4a38e;
+    display: block;
+    font-size: 18px;
+    font-family: 'Vidaloka';
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.less-wide {
+    padding: 0 40px;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.bg-darkbrown h2 {
+    margin-bottom: 30px;
+}
+
+
+.vertical-align 
+{
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.fifty-wide 
+{
+    text-align: center;
+    width: 50%;
+    margin:40px 0;
+}
+
+.titel.nopadding 
+{
+    padding: 0;
+}
+
+
+.item {
+    display: inline-block;
+    width: 100%;
+}
+
+section .btn {
+    margin-top: 20px;
+}
+
+section
+{
+    padding: 0 !important;
+}
+
+section.carousel [class*=' col-'], section.over [class*=' col-'], .vertical-align [class*=' col-'] {
+    padding: 0;
+}
+
+
+.vertical-align > [class^="col-"], .vertical-align > [class*=" col-"] {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+/* Footer */
+
+.bg-darkbrown {
+    background: darkolivegreen;
+    color: white;
+}
+
+footer {
+    padding: 50px 0 25px;
+    font-weight: 100;
+}
+
+footer h4 {
+    color: #c4a38e;
+    font-family: 'Vidaloka';
+    padding-bottom: 20px;
+}
+
+footer img {
+    margin-bottom: 30px;
+}
+
+footer .btn.outline {
+    color: white;
+    border-color: white;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer ul li.company {
+    font-weight: bold;
+}
+
+footer ul li.phone {
+    margin-top: 10px;
+}
+
+footer ul li.phone span, footer ul li.email span 
+{
+    font-weight: normal;
+}
+
+footer .btn.outline {
+    color: white;
+    border-color: white;
+    margin-top: 20px;
+}
+
+.arrow:after {
+    content: "\f061";
+    font-family: FontAwesome;
+    margin-left: 20px;
+}
+
+footer .totop {
+    color: #ceaa92;
+    text-transform: uppercase;
+    float: right;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    top: -50px;
+    font-weight: bold;
+}
+
+footer .totop:after {
+    content: url(../images/long-arrow.svg);
+    margin-left: 20px;
+    font-family: FontAwesome;
+    position: absolute;
+    height: auto;
+    width: 100px;
+    top: -16px;
+}
+
+footer .social ul {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .social ul li {
+    background: white;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+footer ul.bottom {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.light {
+    font-weight: 100;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul.bottom li:first-child {
+    margin-left: 0;
+}
+
+footer ul.bottom li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer ul.bottom li:last-child {
+    margin-right: 0;
+}
+
+.fa
+{
+    color: black;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    color: white;
+
+}
+
+.carousel-control.left
+{
+    background-image: none !important;
+}
+
+.carousel-control.right
+{
+    background-image: none !important;
+}
+
+
+section.carousel, section.over {
+    padding: 0;
+}
+
+#testimonails-carousel .carousel-indicators li {
+    background-color: #ebebe8;
+    border: none;
+}
+
+#testimonails-carousel .carousel-indicators .active {
+    background-color: #222222;
+    border: none;
+}
+
+#testimonails-carousel {
+    padding: 100px 0 !important;
+}
+
+#testimonails-carousel .container {
+    position: relative;
+    text-align: center;
+}
+
+#testimonails-carousel .carousel-indicators {
+    bottom: -60px;
+}
+
+.testimonial-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+
+.testimonial-title:before {
+    content: '“';
+}
+
+.testimonial-title:after {
+    content: '”';
+}
+
+.klanten .testimonial-content {
+    width: 600px;
+}
+
+.testimonial-content {
+    width: 260px;
+    margin: auto;
+    min-height: 105px;
+    margin-top: 20px;
+}
+
+.testimonial-content .testimonial-photo {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.testimonial-content .testimonial-photo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.klanten .testimonial-content .testimonial-review {
+    float: none;
+}
+
+.testimonial-content .testimonial-review p {
+    margin: 0;
+}
+
+.testimonial-button {
+    margin-top: 40px;
+}
+
+#testimonails-carousel .black {
+    color: #222222;
+    text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
